@@ -1,9 +1,7 @@
 
+’
+java:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŒĞçòşÿÿÿÿ8ï‚€¥1
+
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Î¼Æš8’ï‚€¥1
 O
-java:S1135	"2Complete the task associated to this TODO comment.(‰£ØÜ8–›Ç¤1
-F
-java:S1068")Remove this unused "items" private field.(‘©ï³8Ô°œÇ¤1
-E
-java:S1068"(Remove this unused "name" private field.(Ú§×œ8–›Ç¤1
-G
-java:S1068"*Remove this unused "amount" private field.(«’õµ8–›Ç¤1
+java:S1135	"2Complete the task associated to this TODO comment.(‰£ØÜ8”ï‚€¥1
