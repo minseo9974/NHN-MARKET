@@ -1,10 +1,11 @@
 
 O
-java:S1135"2Complete the task associated to this TODO comment.(Û¾³³8•¨²þ¤1
-X	java:S125"<This block of commented-out lines of code should be removed.(©³¥8Ì‹Ïÿ¤1
-G	java:S106"+Replace this use of System.out by a logger.(æ”±ÿ8˜¨²þ¤1
+java:S1135"2Complete the task associated to this TODO comment.(Û¾³³8Ä‚¶¨¥1
+L	java:S106"+Replace this use of System.out by a logger.(©þêÜúÿÿÿÿ8Ê‚¶¨¥1
 N
-java:S1135"2Complete the task associated to this TODO comment.(´èÂu8˜¨²þ¤1
-L	java:S106 "+Replace this use of System.out by a logger.(›Äæ÷üÿÿÿÿ8˜¨²þ¤1
+java:S1135""2Complete the task associated to this TODO comment.(´èÂu8È‚¶¨¥1
+G	java:S106$"+Replace this use of System.out by a logger.(æ”±ÿ8Ê‚¶¨¥1
+L	java:S106%"+Replace this use of System.out by a logger.(›Äæ÷üÿÿÿÿ8±×¾¨¥1
 G
-java:S1197#"*Move the array designators [] to the type.(ˆ€Ñø8›¨²þ¤1
+java:S1197)"*Move the array designators [] to the type.(ˆ€Ñø8Ê‚¶¨¥1
+X	java:S125("<This block of commented-out lines of code should be removed.(¹ÐÌ¥8Ê‚¶¨¥1
