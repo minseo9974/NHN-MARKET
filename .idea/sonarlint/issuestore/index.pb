@@ -17,3 +17,15 @@ _
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
 c
 3src/main/java/com/nhnacademy/mart/NhnMartShell.java,e/1/e18dfd24854668fbdcbd8c593414fd72ed1b1f12
+b
+2src/test/java/com/nhnacademy/mart/BuyListTest.java,f/7/f756cbddd7be719b405f8bd01c590bc1d1c10460
+b
+2src/test/java/com/nhnacademy/mart/CounterTest.java,7/0/70fee2c0043e8ddaa59a1b20ad2947dc2911edba
+c
+3src/test/java/com/nhnacademy/mart/CustomerTest.java,8/d/8dd7058fe318a650476c155e4b7d1ee2e5164f44
+d
+4src/test/java/com/nhnacademy/mart/FoodStandTest.java,5/a/5ac2ca1e03c4b09e3fb1afe8ef41cfd0cfa9ca29
+a
+1src/test/java/com/nhnacademy/mart/BasketTest.java,6/5/65c6b361edfb2040772d73463db4991f565fe5ad
+J
+dependency-reduced-pom.xml,8/a/8a88dfd5af6f2db5a5431581b56e901f5f143d92
