@@ -13,6 +13,10 @@ public class BuyList {
     public ArrayList<Item> getArrayList(){
         return items;
     }
+    @Override
+    public String toString() {
+        return "BuyList" + items;
+    }
 
     public static class Item {
         private final String name;
@@ -20,6 +24,13 @@ public class BuyList {
         public Item(String name,int amount){
             this.name = name;
             this.amount = amount;
+            classInvariant();
+        }
+
+        private void classInvariant() {
+            if(getAmount() < 0 ){
+                throw new IllegalArgumentException("수량이 음수가 될수 없습니다.");
+            }
         }
 
         public String getName() {

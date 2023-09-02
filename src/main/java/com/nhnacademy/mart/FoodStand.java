@@ -10,6 +10,9 @@ public class FoodStand {
     public void add(Food food){
         foods.add(food);
     }
+    public int getSize(){
+        return foods.size();
+    }
 
     public Food getFood(String food){
         for (Food f:foods) {

@@ -19,6 +19,8 @@ public class Customer {
     public void bring(Basket basket) {
         this.basket = basket;
     }
+    //Test 코드를 위한 장바구니 반환용 메서드
+    public Basket getBasket(){return basket;}
 
     // TODO pickFoods 메서드 구현
     public void pickFoods(FoodStand foodStand) {
