@@ -1,6 +1,5 @@
 package com.nhnacademy.mart;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class NhnMartShell {
@@ -20,11 +19,18 @@ public class NhnMartShell {
         // 장바구니를 챙긴다.
         minseo.bring(mart.provideBasket());
 
-        // 식품을 담는다.
-        minseo.pickFoods(mart.getFoodStand());
+        try {
+            // 식품을 담는다.
+            minseo.pickFoods(mart.getFoodStand());
 
-        // 카운터에서 계산한다.
-        minseo.payTox(mart.getCounter());
+            // 카운터에서 계산한다.
+            minseo.payTox(mart.getCounter());
+
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+
+
     }
 
     private static BuyList inputBuyListFromShell() {
@@ -33,8 +39,8 @@ public class NhnMartShell {
         System.out.println("NHN 마트에 오신 것을 환영합니다. 사고 싶은 물건을 골라주세요.");
         System.out.print("> ");
 
-//        String s = sc.nextLine();
-        String s = "양파 2 계란 2 파 4";
+        String s = sc.nextLine();
+//        String s = "양파 2 계란 2 파 4";
         String arr[] = s.split(" ");
 
         BuyList buyList = new BuyList();
@@ -44,7 +50,6 @@ public class NhnMartShell {
             buyList.add(item);
         }
 
-        System.out.println("NhnMartShell.inputBuyListFromShell -> Success");
         return buyList;
     }
 }

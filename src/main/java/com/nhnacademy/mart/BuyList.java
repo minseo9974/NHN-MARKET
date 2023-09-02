@@ -26,6 +26,14 @@ public class BuyList {
             return name;
         }
 
+        @Override
+        public String toString() {
+            return "Item{" +
+                    "name='" + name + '\'' +
+                    ", amount=" + amount +
+                    '}';
+        }
+
         public int getAmount() {
             return amount;
         }

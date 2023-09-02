@@ -10,6 +10,14 @@ public class Food {
         this.price = price;
     }
 
+    @Override
+    public String toString() {
+        return "Food{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
     public String getName() {
         return name;
     }
@@ -17,4 +25,5 @@ public class Food {
     public int getPrice() {
         return price;
     }
+
 }

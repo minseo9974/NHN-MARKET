@@ -4,8 +4,12 @@ import java.util.ArrayList;
 
 public class Basket {
     private final ArrayList<Food> foods = new ArrayList<>();
-    public Basket(){}
+    public Basket(){
+    }
     public void add(Food food) {
         foods.add(food);
+    }
+    public ArrayList<Food> getBasketFood(){
+        return foods;
     }
 }
