@@ -2,6 +2,9 @@ package com.nhnacademy.mart;
 
 import java.util.ArrayList;
 
+/**
+ * 고객 클래스입니다.
+ */
 public class Customer {
 
     // 고객 구매 목록
@@ -23,6 +26,11 @@ public class Customer {
     public Basket getBasket(){return basket;}
 
     // TODO pickFoods 메서드 구현
+
+    /**
+     * 음식을 구매리스트에서 보고 매대에서 가져와서 장바구니에 담는 메서드입니다.
+     * @param foodStand
+     */
     public void pickFoods(FoodStand foodStand) {
         ArrayList<BuyList.Item> items = buyList.getArrayList();
 
@@ -50,14 +58,20 @@ public class Customer {
         }
     }
 
-
     // TODO payTox 메서드 구현
+
+    /**
+     * 가격을 계산합니다.
+     * @param counter
+     */
     public void payTox(Counter counter) {
         try {
             counter.total(basket);
+
             counter.pay(money);
         } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
+//            System.out.println(e.getMessage());
+            MyLogger.getLogger().error(e.getMessage());
         }
     }
 
