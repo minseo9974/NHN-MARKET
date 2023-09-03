@@ -2,6 +2,9 @@ package com.nhnacademy.mart;
 
 import java.util.Scanner;
 
+/**
+ * 프로그램 메인 클래스 입니다.
+ */
 public class NhnMartShell {
 
     public static void main(String[] args) {
@@ -24,11 +27,15 @@ public class NhnMartShell {
             minseo.payTox(mart.getCounter());
 
         } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
+            MyLogger.getLogger().error(e.getMessage());
         }
-
-
     }
+
+    /**
+     * 입력받는 클래스입니다.
+     * @return
+     * @throws IllegalArgumentException
+     */
 
     private static BuyList inputBuyListFromShell() throws IllegalArgumentException {
         // TODO Scanner 입력을 받아 buyList 만들기
@@ -39,7 +46,9 @@ public class NhnMartShell {
         String s = sc.nextLine();
 //        String s = "양파 2 계란 2 파 4";
         String arr[] = s.split(" ");
-
+        if(arr.length == 1|| arr.length==0){
+            throw new IllegalArgumentException("제대로 입력해주세요.");
+        }
         BuyList buyList = new BuyList();
 
         for (int i = arr.length % 2; i < arr.length; i += 2) {

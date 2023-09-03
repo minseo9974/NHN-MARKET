@@ -29,3 +29,7 @@ a
 1src/test/java/com/nhnacademy/mart/BasketTest.java,6/5/65c6b361edfb2040772d73463db4991f565fe5ad
 J
 dependency-reduced-pom.xml,8/a/8a88dfd5af6f2db5a5431581b56e901f5f143d92
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
